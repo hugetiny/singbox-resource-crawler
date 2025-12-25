@@ -1,0 +1,4 @@
+scrapy
+pybase64
+# cryptography is often needed for some scrapy features
+cryptography
