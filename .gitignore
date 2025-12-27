@@ -1,9 +1,11 @@
 # Python
 *.pyc
 __pycache__/
+.pytest_cache/
 
 # Crawler data
 crawler_data.db
+data.db
 resources.jsonl
 crawls/
 
@@ -25,8 +27,28 @@ Thumbs.db
 
 # Logs
 logs/
+crawler/logs/
 *.log
 
 # Temporary files
 *.tmp
 *.temp
+test_val.db
+tmp/
+
+# Virtual environment
+venv/
+env/
+.env/
+
+# Build
+build/
+dist/
+*.egg-info/
+
+# GeoLite2 database
+GeoLite2-*.mmdb
+
+# Testing
+/test.db
+/tests/test.db

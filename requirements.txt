@@ -2,3 +2,16 @@ scrapy
 pybase64
 # cryptography is often needed for some scrapy features
 cryptography
+requests
+tqdm
+psutil
+# Additional libraries for enhanced functionality
+python-dotenv
+pydantic
+pydantic-settings
+scrapy-user-agents
+tenacity
+pytest
+black
+flake8
+isort
